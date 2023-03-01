@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #box1{
+        #box1 {
             width: 300px;
             height: 300px;
             background-color: red;
         }
-        #box2{
+
+        #box2 {
             width: 300px;
             height: 300px;
             background-color: blue;
         }
-        #box3{
+
+        #box3 {
             width: 300px;
             height: 300px;
             background-color: green;
         }
-        #box4{
+
+        #box4 {
             width: 300px;
             height: 300px;
             background-color: gray;
         }
-        a{
+
+        a {
             display: block;
             text-decoration: none;
             font-size: 30px;
@@ -34,15 +39,26 @@
     </style>
 </head>
 <body>
+    <!--Link bookmark özelliği sayfamızdaki linkleri sayfada id si olan nesnelere yönlendirmek için kullanılıyor.
+    Örn; box1 id sindeki div'imiz için biz bir yönlendirici link yapmak istersek link in href bölümüne bu id'yi yapıştırma
+mız gerekiyor-->
     <a href="#box1">Box1</a>
     <a href="#box2">Box2</a>
     <a href="#box3">Box3</a>
     <a href="#box4">Box4</a>
     <br>
-    <div id="box1"><h1>Box1</h1></div>
-    <div id="box2"><h1>Box2</h1></div>
-    <div id="box3"><h1>Box3</h1></div>
-    <div id="box4"><h1>Box4</h1></div>
+    <div id="box1">
+        <h1>Box1</h1>
+    </div>
+    <div id="box2">
+        <h1>Box2</h1>
+    </div>
+    <div id="box3">
+        <h1>Box3</h1>
+    </div>
+    <div id="box4">
+        <h1>Box4</h1>
+    </div>
     <!--Bu şekilde sayfa üzerindeki linklere tıkladığımızda href bölümlerinde # ile yazdığımız alana yönlendiriyoruz-->
 </body>
 </html>
